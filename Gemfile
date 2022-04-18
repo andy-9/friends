@@ -44,7 +44,7 @@ gem "bootsnap", require: false
 
 gem "devise", "~> 4.8", ">= 4.8.1"
 
-gem 'language-server'
+# gem 'language-server'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
