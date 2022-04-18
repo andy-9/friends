@@ -42,8 +42,8 @@ class FriendsTest < ApplicationSystemTestCase
 
   test "should destroy Friend" do
     visit friend_url(@friend)
-    click_on "Destroy this friend", match: :first
+    click_on "Delete this friend", match: :first
 
-    assert_text "Friend was successfully destroyed"
+    assert_text "Friend was successfully deleted"
   end
 end
